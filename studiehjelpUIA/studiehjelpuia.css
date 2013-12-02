@@ -1,0 +1,134 @@
+body {
+  	margin: 0;		padding: 0;
+  	width: 100%;	height: 100%;
+  	background-color: #fff;		color: #000;
+  	text-align: center;
+}
+h2 {
+  	padding: 0 0 7px 0;		margin: 0;
+  	color: #c0d200;
+  	border-bottom: 1px solid #ccc;
+}
+#topwrap {
+  	margin: 0;		padding: 0;
+  	width: 100%;	height: 416px;
+  	position: absolute;
+  	left: 0;		right: 0;
+  	color: inherit;
+  	background: url(images/bg.jpg) repeat-x top center #FFF;
+}
+
+
+
+#topwrap2 {
+  	margin: 0;		padding: 0;
+  	width: 100%;	height: 700px;
+  	position: absolute;
+  	left: 0;		right: 0;
+  	color: inherit;
+  	background: url(images/bg.jpg) repeat-x top center #FFF;
+}
+
+
+
+#topwrap h1 {
+    padding: 0;		margin: 0;
+  	color: #c0d200;
+  	font-family: arial, helvetica, sans-serif;
+  	margin-top: 36px;
+  	float: left;
+  	margin-left: 56px;
+
+}
+
+#topwrap h1 span {
+    padding: 0;		margin: 0;
+  	color: #fff;
+}
+
+#topwrap .topright {
+	position: absolute;
+	right: 0;		top: 0;
+	display: block;
+	height: 140px;		width: 140px;
+	background: url(images/tr.gif) no-repeat;
+	
+}
+
+
+
+#footer {
+  	width: 655px;
+  	color: #ccc;
+  	margin-left: 10px;
+  	padding-top: 2px;
+  	border-top: 1px solid #c0d200;
+  	text-align: center;
+}
+
+
+
+/* ~~~~~~~~~ Meny ~~~~~~~~~ */
+
+    #tabs6 {
+      position: relative;
+      top: 77px;
+      left: 10px;
+      width: 675px;
+      font-size:93%;
+      margin: auto;
+      line-height:normal;
+      height: 66px;
+      }
+    #tabs6 ul {
+	  margin:0;
+	  padding:10px 10px 0 50px;
+	  list-style:none;
+      }
+    #tabs6 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs6 a {
+      float:left;
+      background:url() no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs6 a span {
+      float:left;
+      display:block;
+      background:url(images/tabright6.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+
+   
+    /* Fokus på meny knappene */
+   
+    #tabs6 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs6 a:hover span {
+      background-position:100% -42px;
+    }
+	/* ul,li styling */
+	.del{
+	}
+	
+	.del ul{
+		list-style-type: none;
+		
+	}
+	.del li{
+		display: inline;
+		margin:0px;
+		
+	}
+	h3{
+		font-family:'arial', sans-serif;
+		font-size: 16px;
+		color:#000;
+	}
